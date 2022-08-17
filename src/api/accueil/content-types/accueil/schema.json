@@ -4,7 +4,8 @@
   "info": {
     "singularName": "accueil",
     "pluralName": "accueils",
-    "displayName": "Accueil"
+    "displayName": "Accueil",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,6 +13,19 @@
   "pluginOptions": {},
   "attributes": {
     "Titre": {
+      "type": "string"
+    },
+    "photo_accueil": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "nom_photographe": {
       "type": "string"
     }
   }
