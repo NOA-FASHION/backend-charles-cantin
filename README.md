@@ -9,6 +9,8 @@ de l'école STUDI.
 <br/>
 Selon le cahier des charges l'application demandé devra être un site
  vitrine pour un photographe qui veut dévelloper son activité.
+ <br/>
+ ce site représente la partie back-end du projet.
 
 ------
 
