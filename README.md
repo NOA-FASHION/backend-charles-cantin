@@ -1,9 +1,12 @@
 # PROJET Charles Cantin
 Site vitrine Charles Cantin
+<br/>
 Ce document est un guide de déploiement et un manuel d'utilisation 
 pour l'application TRT-CONSEIL dévéloppé dans le cadre de l'ECF d'entrainement ayant pour titre:
+<br/>
 **Développer la partie front-end d’une application web**
 de l'école STUDI.
+<br/>
 Selon le cahier des charges l'application demandé devra être un site
  vitrine pour un photographe qui veut dévelloper son activité.
 
@@ -30,7 +33,7 @@ particulier sans avoir à recharger la page.
 * Chaque prestation possède un titre, une petite description et un tarif (voir annexes en fin
 de document).
 
-4. ## Une page “tarifs et prestations” :
+4. ## Une page “contact” :
 * Un formulaire fonctionnel doit permettre de le contacter. Vous pouvez utiliser un service
 gratuit comme le plan starter de https://formspree.io/, ou profiter de netlify forms si vous choisissez cet hébergeur.
 
@@ -132,7 +135,7 @@ N'hésitez pas à consulter le [Strapi GitHub repository](https://github.com/str
 ---
 
 <sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
-# strapi-charles-cantin
+
 
 
 # Installation de  l'environnement GIT
@@ -286,7 +289,7 @@ $ sudo systemctl restart nginx
 
 # sécuriser le projet
 
-l est maintenant temps de mettre en place un pare-feu. Un pare-feu est essentiel lors de la configuration du VPS pour limiter le trafic indésirable sortant ou entrant dans votre VPS. Installez ufw et configurez un pare-feu pour autoriser les opérations SSH en faisant .
+il est maintenant temps de mettre en place un pare-feu. Un pare-feu est essentiel lors de la configuration du VPS pour limiter le trafic indésirable sortant ou entrant dans votre VPS. Installez ufw et configurez un pare-feu pour autoriser les opérations SSH en faisant .
 
 ## Installation du parefeu ufw
 ```Terminal
