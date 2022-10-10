@@ -7,7 +7,7 @@ pour l'application TRT-CONSEIL dévéloppé dans le cadre de l'ECF d'entrainemen
 **Développer la partie front-end d’une application web**
 de l'école STUDI.
 <br/>
-Selon le cahier des charges l'application demandé devra être un site
+Selon le cahier des charges l'application demandée devra être un site
  vitrine pour un photographe qui veut dévelloper son activité.
  <br/>
  ce site représente la partie back-end du projet.
@@ -157,7 +157,7 @@ git push -u origin main
 ------
 
 # Déploiement de l'application
-Le déploiement à été éffectué sur un serveur VPS Ubuntu, le choix du provider est Hostinger.
+Le déploiement à été effectué sur un serveur VPS Ubuntu, le choix du provider est Hostinger.
 
 # Installation de l'environement
 
@@ -169,8 +169,8 @@ Le déploiement à été éffectué sur un serveur VPS Ubuntu, le choix du provi
 * npm [npm](https://docs.npmjs.com/cli/v6/commands/npm-install)(ouvre une nouvelle fenêtre)(v6 uniquement) ou fil (ouvre une nouvelle fenêtre)pour exécuter les scripts d'installation CLI.
 * installation de MongoDB
 
-La descriptions des procédures d'installation suivantes sont destinées à l'OS Linux Ubuntu, pour les autres système 
-d'exploitaion vous pouvez vous référez à la documentation officielle.
+La description des procédures d'installation suivantes sont destinées à l'OS Linux Ubuntu, pour les autres systèmes 
+d'exploitaions vous pouvez vous référez à la documentation officielle.
 
 
 ### Mise à jour des paquets d'installation
@@ -195,7 +195,7 @@ $ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 0C49F3730359
 $ echo "deb [ arch=amd64,arm64 ] http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.4.list
 
 ```
-### Rechargez la base de données de packages locale :
+### Rechargez la base de données de packages locales :
 ```Terminal 
 $ sudo apt-get updat
 ```
@@ -214,12 +214,12 @@ $ sudo service mongod start
 
 ```
 
-## installer GIT
+## installez GIT
 ```Terminal 
 $ sudo apt install git
 ```
 
-## initialisr Git
+## initialisez Git
 ```Terminal 
 $ git config --global user.name "Your Name"
 $ git config --global user.email "youremail@domain.com"
@@ -256,7 +256,7 @@ $ pm2 start npm --name my-app -- run start
 
 Votre API Strapi doit être accessible à l'URL suivante : http://yourIP:1337.
 
-## Installer nginx
+## Installez nginx
 
 Votre application est maintenant opérationnelle sur le port 1337. Pour le rendre accessible sur le port web (80) vous devez installer un reverse proxy. nginx est le serveur HTTP et reverse proxy le plus connu.
 ```Terminal
